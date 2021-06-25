@@ -1,24 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0;
+}
+li{
+    width: 14%;
+    color: blanchedalmond;
+    display: inline;
+    border: 1px solid black;
+}
+.submenu {
+    display:none ;
+    
+}
+a{
+
+}
 #cabeza{
     background: blue;
     height: 120px;
-    margin: none;
-    
+    border: 3px solid black;
 }
 #cabIzq{
     width: 20%;
     float: left;
+    border: 3px solid black;
 }
 #cabder{
     width: 40%;
     float: right;
+    border: 3px solid black;
+    margin: 40px 0 40px 0;
 }
 #menu{
     background: gray;
     clear: both;
+    border: 3px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 #CuerpoNavegacion{
     background: lightblue;
+    border: 3px solid black;
 }
 #PiePagina{
     background: blue;
+    border: 3px solid black;
+}
+#imagNoticias{
+    width: 63%;
+    float: left;
+    border: 3px solid black;
+}
+#noticias{
+    width: 20%;
+    float: left;
+}
+#CajasInfo{
+    clear: both;
+}
+.subcaja{
+    width: 30%;
+    float: left;
+}
+#PiePagina{
+    clear: both;
+}
+#img1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flotante2{
+    position: relative;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
