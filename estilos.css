@@ -12,7 +12,7 @@ li{
     display: inline;
     border: 1px solid black;
 }
-.submenu {
+.submenu{
     display:none ;
     
 }
@@ -20,7 +20,7 @@ a{
 
 }
 #cabeza{
-    background: blue;
+    background:url(imagenes/emas_banner.png) repeat-x fixed;
     height: 120px;
     border: 3px solid black;
 }
@@ -36,11 +36,11 @@ a{
     margin: 40px 0 40px 0;
 }
 #menu{
-    background: gray;
+    background: rgba(128, 128, 128, 0.726);
     clear: both;
     border: 3px solid black;
     position: sticky;
-    top: 0;
+    top: 0px;
     z-index: 1;
 }
 #CuerpoNavegacion{
@@ -64,7 +64,8 @@ a{
     clear: both;
 }
 .subcaja{
-    width: 30%;
+    width: 25%;
+    height: 33%;
     float: left;
 }
 #PiePagina{
